@@ -50,6 +50,8 @@ For a detailed walkthrough of the data understanding and preprocessing steps, yo
 
 ## Modelling and Evaluation
 
+![Model Compare](results/model_compare.png)
+
 Various machine learning models were employed to tackle the problem of predicting employee attrition at Salifort Motors:
 
 * **Logistic Regression**: Served as the baseline model, achieving an F1-score of 79.9%.
