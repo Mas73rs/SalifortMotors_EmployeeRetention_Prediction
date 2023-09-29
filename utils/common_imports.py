@@ -137,10 +137,7 @@ def read_pickle(path, saved_model_name:str):
         model: the pickled model 
     '''
     
-    # Create the full path for saving the model
-    full_path = os.path.join(path, saved_model_name + '.pickle')
-
-    with open(full_path, 'rb') as to_read:
+    with open(path + saved_model_name + '.pickle', 'rb') as to_read:
         model = pickle.load(to_read)
 
     return model
