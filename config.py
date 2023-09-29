@@ -44,4 +44,4 @@ model_results_path = "../model/model_results.csv"
 decision_tree1_path = "../model/hr_dt1.pickle"
 
 # Path to the random forest model
-decision_tree1_path = "../model/hr_rf1.pickle"
+random_forest1_path = "../model/hr_rf1.pickle"
