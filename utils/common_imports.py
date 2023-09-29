@@ -122,10 +122,7 @@ def write_pickle(path, model_object, save_as:str):
     Out: A call to pickle the model in the folder indicated
     '''    
 
-    # Create the full path for saving the model
-    full_path = os.path.join(path, save_as + '.pickle')
-
-    with open(full_path, 'wb') as to_write:
+    with open(path + save_as + '.pickle', 'wb') as to_write:
         pickle.dump(model_object, to_write)
 
 
