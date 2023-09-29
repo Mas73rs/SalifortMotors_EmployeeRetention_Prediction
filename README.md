@@ -64,15 +64,15 @@ For a detailed walkthrough of the data understanding and preprocessing steps, yo
 
 ![Decision Tree Feature Importance](results/dt_feature_imp.png)
 
-*Figure 2*: The Decision Tree model has identified certain features such as the `satisfaction_level` and `tenure` as strong predictors. 
+*Figure 2: The Decision Tree model has identified certain features such as the `satisfaction_level` and `tenure` as strong predictors.* 
 
 
 ![Random Forest Feature Importance](results/rf_feature_imp.png)
 
-*Figure 3*: Features like `satisfaction_level`, `number_project` and `tenure` stand out as significant predictors in the Random Forest model. This suggests that HR policies targeting these areas could have the greatest impact on employee retention.
+*Figure 3: Features like `satisfaction_level`, `number_project` and `tenure` stand out as significant predictors in the Random Forest model. This suggests that HR policies targeting these areas could have the greatest impact on employee retention.*
 
 ![Model Compare](results/model_compare.png)
-*Figure 4*: The Random Forest model outperforms other models overall. This indicates that it is the most balanced model in terms of precision and recall, making it the recommended model for this project.
+*Figure 4: The Random Forest model outperforms other models overall. This indicates that it is the most balanced model in terms of precision and recall, making it the recommended model for this project.*
 
 
 Various machine learning models were employed to tackle the problem of predicting employee attrition at Salifort Motors:
