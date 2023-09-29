@@ -78,3 +78,41 @@ def make_results(model_name:str, model_object, metric:str):
                         })
   
     return table
+
+
+# Function to save objects using `pickle`
+def write_pickle(path, model_object, save_as:str):
+    '''
+    In: 
+        path:         path of folder where you want to save the pickle
+        model_object: a model you want to pickle
+        save_as:      filename for how you want to save the model
+
+    Out: A call to pickle the model in the folder indicated
+    '''    
+
+    # Create the full path for saving the model
+    full_path = os.path.join(path, save_as + '.pickle')
+
+    with open(full_path, 'wb') as to_write:
+        pickle.dump(model_object, to_write)
+
+
+# Function to load objects using `pickle`
+def read_pickle(path, saved_model_name:str):
+    '''
+    In: 
+        path:             path to folder where you want to read from
+        saved_model_name: filename of pickled model you want to read in
+
+    Out: 
+        model: the pickled model 
+    '''
+    
+    # Create the full path for saving the model
+    full_path = os.path.join(path, saved_model_name + '.pickle')
+
+    with open(full_path, 'rb') as to_read:
+        model = pickle.load(to_read)
+
+    return model
