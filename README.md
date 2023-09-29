@@ -1,3 +1,5 @@
+<a href="https://www.kaggle.com/code/thierrymasters/salifort-motors-employee-retention-prediction?scriptVersionId=144605639" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>
+
 # Predicting Employee Retention at Salifort Motors: A Machine Learning Approach
 
 ## Table of Contents
