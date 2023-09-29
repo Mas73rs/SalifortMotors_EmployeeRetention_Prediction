@@ -24,4 +24,4 @@ y_train_path = "../data/processed/y_train.csv"
 y_test_path = "../data/processed/y_test.csv"
 
 # Path to the model results file
-model_results_path = "../data/results/model_results.csv"
+model_results_path = "../data/model/model_results.csv"
