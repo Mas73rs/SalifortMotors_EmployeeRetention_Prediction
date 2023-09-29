@@ -1,5 +1,16 @@
 # Predicting Employee Retention at Salifort Motors: A Machine Learning Approach
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Business Understanding](#business-understanding)
+3. [Data Understanding](#data-understanding)
+  - [Visual Insights from EDA](#visual-insights-from-eda)
+4. [Modeling and Evaluation](#modeling-and-evaluation)
+  - [Visual Insights from Modeling](#visual-insights-from-modeling)
+5. [Conclusion](#conclusion)
+
+
 ## Project Overview
 
 * **Problem Statement:** This project aims to predict the likelihood of employee attrition at Salifort Motors, a hypothetical automotive company. Employee retention is critical for the long-term success and stability of the business, making it a top priority for HR and management.
