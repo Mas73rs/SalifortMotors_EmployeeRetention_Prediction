@@ -55,3 +55,21 @@ Various machine learning models were employed to tackle the problem of predictin
 **Model Tuning**: To optimise the models further, hyperparameter tuning was performed using GridSearchCV. This step led to a 1.8% improvement in the Random Forest model's F1 score. However, it's AUC decreased by 1.4%.
 
 **Cross-Validation**: To ensure the model's generalisability, a 5-fold cross-validation was conducted, which confirmed the stability of the model's performance.
+
+## Conclusion
+
+The project successfully developed a machine learning model to predict employee attrition at Salifort Motors with an F1-score of 95.3%. The Random Forest model proved to be the most effective, highlighting the importance of features like 'Job Satisfaction' and 'Years at the Company' in influencing employee retention.
+
+**Recommendations**:
+
+- Implement targeted retention programs focused on employees identified as 'high-risk' by the model.
+- Limit the number of projects that employees can work on. 
+- Promote employees who have been with the company for at least four years or investigate why these tenured employees are dissatisfied. 
+- Stakeholders could either reward employees for working longer hours or limit their hours. 
+- Inform employees about the company's overtime pay policies and clarify expectations around workload and time off. Company-wide and within-team discussions can also be held to address work culture. 
+- Evaluation scores should be reserved for employees who work less than 200+ hours per month, and a proportionate scale should be used to reward employees who contribute more effort.
+
+**Future Work**:
+
+Expand the dataset to include additional features like employee engagement scores or external economic factors.
+Ensemble methods or more complex algorithms like Gradient Boosting or Neural Networks for higher accuracy.
