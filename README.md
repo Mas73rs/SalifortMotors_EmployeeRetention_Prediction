@@ -41,3 +41,17 @@ The dataset used for this analysis is sourced from Salifort Motors' Human Resour
 **Data Limitations**: While the dataset is rich in features, it's important to note some limitations. For instance, the dataset lacks information on external factors like industry trends or economic conditions, which could influence employee retention.
 
 **Exploratory Data Analysis (EDA)**: Preliminary data exploration revealed several noteworthy patterns. For example,  some workers quit their jobs due to unsatisfactory management. This decision is influenced by extended working hours, numerous projects, and decreased job contentment. Being overworked without receiving recognition or positive performance reviews can be disheartening. Additionally, a significant number of employees may be experiencing burnout. Interestingly, those who have worked at the company for over six years tend to stay.
+
+## Modelling and Evaluation
+
+Various machine learning models were employed to tackle the problem of predicting employee attrition at Salifort Motors:
+
+* **Logistic Regression**: Served as the baseline model, achieving an F1-score of 79.9%.
+* **Decision Trees**: Provided deeper insights into feature importance, with an F1-score of 94.6%.
+* **Random Forest**: Achieved the highest F1-score of 95.3%, making it the preferred model for this project.
+
+**Evaluation Metrics**: The models were evaluated based on several key metrics: accuracy, F1-score, precision, recall and AUC (Area Under the Curve). The Random Forest model excelled across these metrics, confirming its robustness.
+
+**Model Tuning**: To optimise the models further, hyperparameter tuning was performed using GridSearchCV. This step led to a 1.8% improvement in the Random Forest model's F1 score. However, it's AUC decreased by 1.4%.
+
+**Cross-Validation**: To ensure the model's generalisability, a 5-fold cross-validation was conducted, which confirmed the stability of the model's performance.
