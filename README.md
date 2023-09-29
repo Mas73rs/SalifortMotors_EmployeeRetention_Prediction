@@ -44,8 +44,8 @@ The dataset used for this analysis is sourced from Salifort Motors' Human Resour
 
 For a detailed walkthrough of the data understanding and preprocessing steps, you can visit the following notebooks:
 
-- [Initial EDA and Data Cleaning](./notebooks/Initial_EDA_and_Data_Cleaning.ipynb)
-- [Data Exploration (Continue EDA)](./notebooks/Data_Exploration_(Continue_EDA).ipynb)
+- [Initial EDA and Data Cleaning](notebooks/00_Initial_EDA_and_Data_Cleaning.ipynb)
+- [Data Exploration (Continue EDA)](notebooks/01_Data_Exploration_Continue.ipynb)
 
 
 ## Modelling and Evaluation
