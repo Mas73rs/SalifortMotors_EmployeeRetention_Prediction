@@ -21,4 +21,10 @@ salary|The employee's salary (U.S. dollars)
 **source:** For more information about the data, refer to its source on [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv).
 
 
-* **Key Results:** Utilizing machine learning algorithms like Logistic Regression, Decision Trees, and Random Forest, the model achieved notable success with an F1-score of 95.3%, and other metrics like accuracy rate, precision, and recall also showed promising results.
+* **Key Results:** Utilising machine learning algorithms like Logistic Regression, Decision Trees, and Random Forest, the model achieved notable success with an F1-score of 95.3%, and other metrics like accuracy rate, precision, and recall also showed promising results.
+
+
+## Business Understanding
+
+The success of any organisation heavily relies on the retention of its skilled employees. High turnover rates result in increased recruitment and training costs and lead to a loss of institutional knowledge and decreased overall productivity. In the case of Salifort Motors, understanding the factors contributing to employee attrition is crucial for maintaining a competitive edge in the automotive industry.
+For this project, the primary stakeholders are the Human Resources department and the executive leadership team at Salifort Motors. The aim is to develop a predictive model to identify employees at risk of leaving the company, thereby allowing for targeted retention strategies.
