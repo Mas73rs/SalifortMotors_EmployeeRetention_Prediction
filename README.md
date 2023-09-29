@@ -42,6 +42,12 @@ The dataset used for this analysis is sourced from Salifort Motors' Human Resour
 
 **Exploratory Data Analysis (EDA)**: Preliminary data exploration revealed several noteworthy patterns. For example,  some workers quit their jobs due to unsatisfactory management. This decision is influenced by extended working hours, numerous projects, and decreased job contentment. Being overworked without receiving recognition or positive performance reviews can be disheartening. Additionally, a significant number of employees may be experiencing burnout. Interestingly, those who have worked at the company for over six years tend to stay.
 
+For a detailed walkthrough of the data understanding and preprocessing steps, you can visit the following notebooks:
+
+- [Initial EDA and Data Cleaning](./notebooks/Initial_EDA_and_Data_Cleaning.ipynb)
+- [Data Exploration (Continue EDA)](./notebooks/Data_Exploration_(Continue_EDA).ipynb)
+
+
 ## Modelling and Evaluation
 
 Various machine learning models were employed to tackle the problem of predicting employee attrition at Salifort Motors:
