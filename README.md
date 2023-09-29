@@ -50,6 +50,13 @@ Various machine learning models were employed to tackle the problem of predictin
 * **Decision Trees**: Provided deeper insights into feature importance, with an F1-score of 94.6%.
 * **Random Forest**: Achieved the highest F1-score of 95.3%, making it the preferred model for this project.
 
+***Notebooks for Modeling and Evaluation***
+
+For a detailed understanding of the models and evaluation metrics, you can visit the following Jupyter Notebooks:
+- [Logistic Regression](notebooks/02_Logistic_Regression_Model.ipynb)
+- [Decision Tree](notebooks/03_Decision_Tree_Model.ipynb)
+- [Random Forest](notebooks/04_Random_Forest_Model.ipynb)
+
 **Evaluation Metrics**: The models were evaluated based on several key metrics: accuracy, F1-score, precision, recall and AUC (Area Under the Curve). The Random Forest model excelled across these metrics, confirming its robustness.
 
 **Model Tuning**: To optimise the models further, hyperparameter tuning was performed using GridSearchCV. This step led to a 1.8% improvement in the Random Forest model's F1 score. However, it's AUC decreased by 1.4%.
