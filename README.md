@@ -72,7 +72,8 @@ For a detailed walkthrough of the data understanding and preprocessing steps, yo
 *Figure 3*: Features like `satisfaction_level`, `number_project` and `tenure` stand out as significant predictors in the Random Forest model. This suggests that HR policies targeting these areas could have the greatest impact on employee retention.
 
 ![Model Compare](results/model_compare.png)
-*Figure 4: The Random Forest model outperforms other models overall. This indicates that it is the most balanced model in terms of precision and recall, making it the recommended model for this project.
+*Figure 4*: The Random Forest model outperforms other models overall. This indicates that it is the most balanced model in terms of precision and recall, making it the recommended model for this project.
+
 
 Various machine learning models were employed to tackle the problem of predicting employee attrition at Salifort Motors:
 
