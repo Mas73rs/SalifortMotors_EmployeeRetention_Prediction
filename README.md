@@ -52,7 +52,7 @@ The dataset used for this analysis is sourced from Salifort Motors' Human Resour
 **Exploratory Data Analysis (EDA)**: Preliminary data exploration revealed several noteworthy patterns. For example,  some workers quit their jobs due to unsatisfactory management. This decision is influenced by extended working hours, numerous projects, and decreased job contentment. Being overworked without receiving recognition or positive performance reviews can be disheartening. Additionally, a significant number of employees may be experiencing burnout. Interestingly, those who have worked at the company for over six years tend to stay.
 
 ![Hours by Project](results/hrs_by_project.png)
-*Figure 1: Employees with multiple projects tend to work longer hours. However, two distinct groups of employees left the company - one group worked less than their colleagues with the same number of projects, while the other group worked more.
+*Figure 1*: Employees with multiple projects tend to work longer hours. However, two distinct groups of employees left the company - one group worked less than their colleagues with the same number of projects, while the other group worked more.
 
 For a detailed walkthrough of the data understanding and preprocessing steps, you can visit the following notebooks:
 
@@ -63,10 +63,13 @@ For a detailed walkthrough of the data understanding and preprocessing steps, yo
 ## Modelling and Evaluation
 
 ![Decision Tree Feature Importance](results/dt_feature_imp.png)
-*Figure 2: The Decision Tree model has identified certain features such as the `satisfaction_level` and `tenure` as strong predictors. 
+
+*Figure 2*: The Decision Tree model has identified certain features such as the `satisfaction_level` and `tenure` as strong predictors. 
+
 
 ![Random Forest Feature Importance](results/rf_feature_imp.png)
-*Figure 3: Features like `satisfaction_level`, `number_project` and `tenure` stand out as significant predictors in the Random Forest model. This suggests that HR policies targeting these areas could have the greatest impact on employee retention.
+
+*Figure 3*: Features like `satisfaction_level`, `number_project` and `tenure` stand out as significant predictors in the Random Forest model. This suggests that HR policies targeting these areas could have the greatest impact on employee retention.
 
 ![Model Compare](results/model_compare.png)
 *Figure 4: The Random Forest model outperforms other models overall. This indicates that it is the most balanced model in terms of precision and recall, making it the recommended model for this project.
