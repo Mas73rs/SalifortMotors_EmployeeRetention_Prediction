@@ -2,6 +2,10 @@
 # config.py
 # Configuration file for setting global variables like data paths
 
+
+
+## Paths to DataFrames
+
 # Path to the raw data file
 raw_data_path = "../data/raw/HR_dataset.csv"
 
@@ -31,3 +35,13 @@ y_test_path = "../data/processed/y_test.csv"
 
 # Path to the model results file
 model_results_path = "../model/model_results.csv"
+
+
+
+## Paths to models
+
+# Path to the decision tree model
+decision_tree1_path = "../model/hr_dt1.pickle"
+
+# Path to the random forest model
+decision_tree1_path = "../model/hr_rf1.pickle"
